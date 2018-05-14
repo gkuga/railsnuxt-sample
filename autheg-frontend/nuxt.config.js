@@ -1,4 +1,13 @@
 module.exports = {
+  modules: [
+    '@nuxtjs/vuetify',
+    '@nuxtjs/axios'
+  ],
+  axios: {
+    host: 'localhost',
+    port: 8080,
+    prefix: '/api'
+  },
   /*
   ** Headers of the page
   */
