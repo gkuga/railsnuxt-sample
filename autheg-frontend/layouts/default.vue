@@ -5,6 +5,7 @@
         <v-toolbar-title>Auth example</v-toolbar-title>
         <v-spacer />
         <v-btn icon nuxt href="/"><v-icon>home</v-icon></v-btn>
+        <v-btn icon nuxt href="/login">login</v-btn>
       </v-toolbar>
       <v-content>
         <v-container fluid>
